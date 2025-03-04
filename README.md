@@ -1,0 +1,1 @@
+Basic code with javascript made by me, I accept tips to improve.

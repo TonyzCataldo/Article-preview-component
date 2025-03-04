@@ -36,6 +36,7 @@ body{
     width: 87.2%;
     align-items: center;
     justify-content: center;
+    box-shadow: 0px 40px 40px hsla(210, 29%, 84%, 0.5);
 }
 .drawers-img{
     width: 100%;

@@ -156,7 +156,6 @@ footer{
 
 .share-and-btns{
     display: flex;
-    align-items: center;
     margin-left: 1.875rem;
 }
 .share-and-btns p{
@@ -210,6 +209,7 @@ body{
     padding: 0;
     justify-content: center;
     gap: 1.5rem;
+    border-radius: 0 10px 10px 0;
    }
 
    section{
@@ -224,4 +224,54 @@ body{
    #description-p{
     margin-right: 5px;
    }
+
+   .share{
+    width: 15.5rem;
+    height: 3.438rem;
+    top: -79px;
+    left: unset;
+    right: -108px;
+    justify-content: center;
+    border-radius: 10px;
+    transform: translateY(500%);
+   }
+.share::after{
+    content: "";
+    position: absolute;
+    border-left: 24px solid transparent;
+    border-right: 24px solid transparent;
+    border-top: 24px solid hsl(217, 19%, 35%);
+    bottom: -12px;
+}
+
+   .share-and-btns{
+    margin-left: 0;
+   }
+
+   .share-visible{
+    transform: translateY(0);
+}
+.main-overflow{
+    overflow:visible;
+}
+}
+
+@media (min-width:1100px){
+    .full{
+        height: 280px;
+        width: 50.69%;
+    }
+    .drawers-img-container{
+        width: 39.97%;
+
+    }
+
+    section{
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+    }
+    footer{
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+    }
 }
